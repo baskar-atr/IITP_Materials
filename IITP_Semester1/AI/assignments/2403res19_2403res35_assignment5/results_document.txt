@@ -1,0 +1,26 @@
+
+Results Summary:
+----------------
+Best Parameters: {'max_depth': 5, 'min_samples_leaf': 4, 'min_samples_split': 2}
+Best Accuracy: 0.7812499999999999
+
+Accuracy on Test Set: 0.7583333333333333
+Confusion Matrix:
+[[91  3]
+ [26  0]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+        Good       0.78      0.97      0.86        94
+       Risky       0.00      0.00      0.00        26
+
+    accuracy                           0.76       120
+   macro avg       0.39      0.48      0.43       120
+weighted avg       0.61      0.76      0.68       120
+
+
+Decision Tree Statistics:
+Number of nodes: 39
+Depth of tree: 5
+

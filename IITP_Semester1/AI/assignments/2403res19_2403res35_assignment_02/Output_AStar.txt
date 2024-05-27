@@ -1,0 +1,54 @@
+C:\Users\MSUSERSL123\PycharmProjects\IITP_AI\venv\Scripts\python.exe C:\Users\MSUSERSL123\PycharmProjects\IITP_AI\Astar_1.py
+Starting Heuristic:h1
+Initial State:
+[[1 5 2]
+ [7 4 0]
+ [8 6 3]]
+Goal State:
+[[1 2 3]
+ [4 5 6]
+ [7 8 0]]
+Heuristic:h1 took 9 steps, 336 Iterations and took 3.8228 seconds to reach the goal
+Total Cost (Steps + Heuristic Value): 9
+h1 completed ************************************************
+Starting Heuristic:h2
+Initial State:
+[[3 1 2]
+ [0 8 7]
+ [6 5 4]]
+Goal State:
+[[1 2 3]
+ [4 5 6]
+ [7 8 0]]
+Heuristic:h2 took 23 steps, 9348 Iterations and took 0.2736 seconds to reach the goal
+Total Cost (Steps + Heuristic Value): 31
+h2 completed ************************************************
+Starting Heuristic:h3
+Initial State:
+[[2 8 3]
+ [7 0 1]
+ [6 4 5]]
+Goal State:
+[[1 2 3]
+ [4 5 6]
+ [7 8 0]]
+Heuristic:h3 took 18 steps, 147 Iterations and took 34.6395 seconds to reach the goal
+Total Cost (Steps + Heuristic Value): [32]
+h3 completed ************************************************
+Starting Heuristic:h4
+Initial State:
+[[8 2 4]
+ [1 7 3]
+ [6 5 0]]
+Goal State:
+[[1 2 3]
+ [4 5 6]
+ [7 8 0]]
+Heuristic:h4 took 20 steps, 74 Iterations and took 0.0093 seconds to reach the goal
+Total Cost (Steps + Heuristic Value): [44]
+h4 completed ************************************************
+Minimum Total Cost among Heuristics:9 by Heuristic Fn :h1
+Minimum Time Taken: 0.0093 seconds (Heuristic: h4 )
+Minimum Iterations: 74 (Heuristic: h4 )
+
+Process finished with exit code 0

@@ -1,0 +1,18 @@
+Intercept: -1044.2574146365562
+Slope: [25.5962591  38.78534598  0.31038593 61.89682859]
+*******************************************************************************
+Coefficients:
+                      Coefficient
+Avg. Session Length     25.596259
+Time on App             38.785346
+Time on Website          0.310386
+Length of Membership    61.896829
+*******************************************************************************
+Feature the company should invest more is: Length of Membership
+The coefficient of (App) is 124.96 times higher than the coefficient of (Website).
+So the company should focus thier efforts on :App
+*******************************************************************************
+Mean Absolute Error (MAE): 8.558441885315217
+Mean Squared Error (MSE): 109.86374118393982
+Root Mean Squared Error (RMSE): 10.481590584636466
+R^2 Score: 0.9778130629184127

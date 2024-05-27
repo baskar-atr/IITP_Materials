@@ -1,0 +1,23 @@
+C:\Users\PycharmProjects\IITP_AI\2403res19_2403res35_CS571_Assigment1.py
+Goal State:
+1 2 3
+4 5 6
+7 8 B
+
+Attempt 1 : Random Initial State:
+1 3 8
+4 2 5
+7 6 B
+
+Starting BFS..
+BFS Goal Reached!
+BFS ToTal Step Taken is : 10
+BFS Total Iterations Taken is : 426
+BFS Total Time Taken to attain the goal state in 0.002669 seconds
+Starting DFS..
+DFS Goal Reached!
+DFS ToTal Step Taken is : 12086
+DFS Total Iterations Taken is : 12595
+DFS Total Time Taken to attain the goal state in 1.699696 seconds
+
+Process finished with exit code 0

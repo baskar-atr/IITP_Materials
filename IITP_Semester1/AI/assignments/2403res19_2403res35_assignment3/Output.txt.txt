@@ -1,0 +1,163 @@
+**********************************************************************************************
+Hill Climbing Search started, Initial State is,
+[['T1', 'T2', 'T3'], ['T4', 'T5', 'T6'], ['T7', 'B', 'T8']]
+Solving using h1 (number of tiles displaced from their destined position)
+State Number: 1
+Number of displaced tiles :  0
+Number of displaced tiles :  3
+Number of displaced tiles :  3
+Number of displaced tiles :  2
+Optimal path using h1: [[['T1', 'T2', 'T3'], ['T4', 'T5', 'T6'], ['T7', 'B', 'T8']], [['T1', 'T2', 'T3'], ['T4', 'T5', 'T6'], ['T7', 'T8', 'B']]]
+Start State:
+T1 T2 T3
+T4 T5 T6
+T7 B T8
+Goal State:
+T1 T2 T3
+T4 T5 T6
+T7 T8 B
+Status is Success,Total number of states explored: 1
+--------------------------------------------------------------------------------------------
+Solving using h2 (sum of the Manhattan distance of each tile from the goal position)
+State Number: 1
+Manhattan distance is: 0
+Manhattan distance is: 2
+Manhattan distance is: 2
+Manhattan distance is: 1
+Optimal path using h2: [[['T1', 'T2', 'T3'], ['T4', 'T5', 'T6'], ['T7', 'B', 'T8']], [['T1', 'T2', 'T3'], ['T4', 'T5', 'T6'], ['T7', 'T8', 'B']]]
+Start State:
+T1 T2 T3
+T4 T5 T6
+T7 B T8
+Goal State:
+T1 T2 T3
+T4 T5 T6
+T7 T8 B
+Status is Success, Total number of states explored: 1
+**********************************************************************************************
+Hill Climbing Search started, Initial State is,
+[['T1', 'T2', 'T3'], ['T4', 'B', 'T6'], ['T7', 'T5', 'T8']]
+Solving using h1 (number of tiles displaced from their destined position)
+State Number: 1
+Number of displaced tiles :  4
+Number of displaced tiles :  4
+Number of displaced tiles :  2
+Number of displaced tiles :  4
+Number of displaced tiles :  3
+Number of displaced tiles :  3
+Number of displaced tiles :  3
+State Number: 2
+Number of displaced tiles :  0
+Number of displaced tiles :  3
+Number of displaced tiles :  3
+Number of displaced tiles :  2
+Optimal path using h1: [[['T1', 'T2', 'T3'], ['T4', 'B', 'T6'], ['T7', 'T5', 'T8']], [['T1', 'T2', 'T3'], ['T4', 'T5', 'T6'], ['T7', 'B', 'T8']], [['T1', 'T2', 'T3'], ['T4', 'T5', 'T6'], ['T7', 'T8', 'B']]]
+Start State:
+T1 T2 T3
+T4 B T6
+T7 T5 T8
+Goal State:
+T1 T2 T3
+T4 T5 T6
+T7 T8 B
+Status is Success,Total number of states explored: 2
+--------------------------------------------------------------------------------------------
+Solving using h2 (sum of the Manhattan distance of each tile from the goal position)
+State Number: 1
+Manhattan distance is: 3
+Manhattan distance is: 3
+Manhattan distance is: 1
+Manhattan distance is: 3
+Manhattan distance is: 2
+Manhattan distance is: 2
+Manhattan distance is: 2
+State Number: 2
+Manhattan distance is: 0
+Manhattan distance is: 2
+Manhattan distance is: 2
+Manhattan distance is: 1
+Optimal path using h2: [[['T1', 'T2', 'T3'], ['T4', 'B', 'T6'], ['T7', 'T5', 'T8']], [['T1', 'T2', 'T3'], ['T4', 'T5', 'T6'], ['T7', 'B', 'T8']], [['T1', 'T2', 'T3'], ['T4', 'T5', 'T6'], ['T7', 'T8', 'B']]]
+Start State:
+T1 T2 T3
+T4 B T6
+T7 T5 T8
+Goal State:
+T1 T2 T3
+T4 T5 T6
+T7 T8 B
+Status is Success, Total number of states explored: 2
+**********************************************************************************************
+Hill Climbing Search started, Initial State is,
+[['T1', 'T2', 'T3'], ['T4', 'T5', 'T6'], ['T7', 'T8', 'B']]
+Solving using h1 (number of tiles displaced from their destined position)
+Optimal path using h1: [[['T1', 'T2', 'T3'], ['T4', 'T5', 'T6'], ['T7', 'T8', 'B']]]
+Start State:
+T1 T2 T3
+T4 T5 T6
+T7 T8 B
+Goal State:
+T1 T2 T3
+T4 T5 T6
+T7 T8 B
+Status is Success,Total number of states explored: 0
+--------------------------------------------------------------------------------------------
+Solving using h2 (sum of the Manhattan distance of each tile from the goal position)
+Optimal path using h2: [[['T1', 'T2', 'T3'], ['T4', 'T5', 'T6'], ['T7', 'T8', 'B']]]
+Start State:
+T1 T2 T3
+T4 T5 T6
+T7 T8 B
+Goal State:
+T1 T2 T3
+T4 T5 T6
+T7 T8 B
+Status is Success, Total number of states explored: 0
+**********************************************************************************************
+Hill Climbing Search started, Initial State is,
+[['B', 'T2', 'T5'], ['T4', 'T3', 'T8'], ['T7', 'T1', 'T6']]
+Solving using h1 (number of tiles displaced from their destined position)
+State Number: 1
+Number of displaced tiles :  7
+Number of displaced tiles :  7
+Number of displaced tiles :  6
+Number of displaced tiles :  6
+Number of displaced tiles :  6
+Local Minima reached with heuristic Value 6 at state:
+B T2 T5
+T4 T3 T8
+T7 T1 T6
+Optimal path using h1: [[['B', 'T2', 'T5'], ['T4', 'T3', 'T8'], ['T7', 'T1', 'T6']]]
+Start State:
+B T2 T5
+T4 T3 T8
+T7 T1 T6
+Goal State:
+T1 T2 T3
+T4 T5 T6
+T7 T8 B
+Total number of states explored before termination: 1
+Status is Failed, Termination Reason: Local Minima Reached
+--------------------------------------------------------------------------------------------
+Solving using h2 (sum of the Manhattan distance of each tile from the goal position)
+State Number: 1
+Manhattan distance is: 11
+Manhattan distance is: 11
+Manhattan distance is: 10
+Manhattan distance is: 10
+Manhattan distance is: 10
+Local Minima reached with heuristic Value 10 at state:
+B T2 T5
+T4 T3 T8
+T7 T1 T6
+Optimal path using h2: [[['B', 'T2', 'T5'], ['T4', 'T3', 'T8'], ['T7', 'T1', 'T6']]]
+Start State:
+B T2 T5
+T4 T3 T8
+T7 T1 T6
+Goal State:
+T1 T2 T3
+T4 T5 T6
+T7 T8 B
+Total number of states explored before termination: 1
+Status is Failed,Termination Reason: Local Minima Reached
+
